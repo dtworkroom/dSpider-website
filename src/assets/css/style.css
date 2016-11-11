@@ -33,7 +33,7 @@ body {  -webkit-overflow-scrolling: touch;  overflow-scrolling: touch;-webkit-ta
 .slogan{margin-top:60px;text-align: center;font-size: 28px;}
 .introduce{position: relative; top:60%;width: 90%;margin: 0 auto;max-width: 1100px;}
 .introduce li{width: 25%;float: left;margin-top: 50px;min-width: 223px;}
-.glyphicon{margin-top: -10px;}
+.glyphicon{margin-top: -10px;    line-height: 90px;}
 .p1{display: inline-block;margin-left: 10px;font-size: 17px;color: #999;}
 .p2{font-size: 13px;display: block;line-height: 26px;}
 .circle{color: #00c0c0;border:#00c0c0 2px solid; border-radius: 100%;display: inline-block;width: 90px;height: 90px;text-align: center;font-size: 52px;}
