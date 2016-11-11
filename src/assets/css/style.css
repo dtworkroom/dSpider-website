@@ -50,7 +50,7 @@ body {  -webkit-overflow-scrolling: touch;  overflow-scrolling: touch;-webkit-ta
     .name{font-size: 30px; letter-spacing: 8px;line-height: 20px;}
     .slogan{margin-top:50px;font-size: 22px;}
     .introduce li{width: 50%;margin-top: 30px;min-width: 120px;text-align: center;}
-    .glyphicon{margin-top: 4px;}
+    .glyphicon{margin-top: -8px; line-height: 70px}
     .p1{margin-left: 6px;display: block;margin-top: 10px;}
     .circle{width: 70px;height: 70px;font-size: 32px;}
 
