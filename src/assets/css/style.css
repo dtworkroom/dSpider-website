@@ -1,0 +1,57 @@
+/*-----------初始化--------*/
+a,abbr,acronym,address,article,aside,audio,big,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,
+footer,form,h2,h3,h4,h5,h6,header,html,i,img,ins,input,kbd,label,legend,li,mark,menu,object,ol, option,p,pre,q,s,samp,section,select,small,span,strike,strong,sub,summary,
+sup,table,textarea,tbody,td,tfoot,th,thead,time,tr,tt,ul,var,video{ margin: 0;padding: 0;border: 0;outline: 0;  vertical-align: middle;
+    font-weight: normal; -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;font-family:'microsoft yahei', arial, simsun;}
+*:after,*:before{ margin: 0;padding: 0;border: 0;outline: 0;  vertical-align: middle; font-weight: normal; -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  box-sizing: border-box;}
+address, cite, dfn, em, var { font-style:normal; }
+small{ font-size:12px; }
+ul, ol ,li{ list-style:none; }
+a { text-decoration:none; color: #333 }
+a:hover { text-decoration:none; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+img {border: none; vertical-align: middle}
+input{outline:none;font-family:'microsoft yahei';-webkit-appearance:none; /*去除input默认样式*/}
+textarea {resize:none;}
+body {  -webkit-overflow-scrolling: touch;  overflow-scrolling: touch;-webkit-tap-highlight-color:rgba(0,0,0,0)  }
+/*-----------自定义公共类---------*/
+.fl{ float:left; }
+.fr{float:right}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1}
+/*-----------头部样式---------*/
+
+#stage{position:absolute;left:0;top:0;width:100%;height:60%;z-index: 1}
+.headr{position: absolute;width: 100%;height: 60%;z-index: 11}
+.h-content{width: 90%;margin: 0 auto;max-width: 1100px;padding-top: 25px;color: #fff;}
+.logo{width: 86px;display: inline-block;margin-right: 20px;}
+.name{font-size: 40px; letter-spacing: 8px;display: inline-block;line-height: 30px;}
+.en-name{font-size: 13px; letter-spacing: 1px;line-height: 13px;}
+.slogan{margin-top:60px;text-align: center;font-size: 28px;}
+.introduce{position: relative; top:60%;width: 90%;margin: 0 auto;max-width: 1100px;}
+.introduce li{width: 25%;float: left;margin-top: 50px;min-width: 223px;}
+.glyphicon{margin-top: -10px;}
+.p1{display: inline-block;margin-left: 10px;font-size: 17px;color: #999;}
+.p2{font-size: 13px;display: block;line-height: 26px;}
+.circle{color: #00c0c0;border:#00c0c0 2px solid; border-radius: 100%;display: inline-block;width: 90px;height: 90px;text-align: center;font-size: 52px;}
+
+
+
+
+
+
+@media (max-width: 500px){
+    #stage,.headr{height:50%;}
+    .introduce{ top:50%;}
+    .logo{width: 60px;}
+    .name{font-size: 30px; letter-spacing: 8px;line-height: 20px;}
+    .slogan{margin-top:50px;font-size: 22px;}
+    .introduce li{width: 50%;margin-top: 30px;min-width: 120px;text-align: center;}
+    .glyphicon{margin-top: 4px;}
+    .p1{margin-left: 6px;display: block;margin-top: 10px;}
+    .circle{width: 70px;height: 70px;font-size: 32px;}
+
+}
