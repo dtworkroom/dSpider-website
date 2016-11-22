@@ -11,11 +11,11 @@
         m,
         i,
         e,
-        w = 0.018,
-        y = 0.015,
+        w = 0.088,
+        y = 0.075,
         z = 100,
-        k = 0.6,
-        c = 0.2,
+        k = 0.3,
+        c = 0.4,
         f,
         h = 0;
     g.raf = g.requestAnimationFrame || g.webkitRequestAnimationFrame ||
@@ -60,7 +60,7 @@
             B = (this.a[1] + this.b[1] + this.c[1]) / 3 - C.y,
             E = Math.sqrt(D * D + B * B),
             A = E > C.radius ? 0: 1 - E / C.radius;
-        return "hsl(180,100%," + (this.lightness + 30 * A) + "%)"
+        return "hsl(180,100%," + (this.lightness + 4 * A) + "%)"
     };
     v.prototype.getDepth = function() {
         return this._depth
