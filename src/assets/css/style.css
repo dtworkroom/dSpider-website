@@ -38,7 +38,11 @@ body {  -webkit-overflow-scrolling: touch;  overflow-scrolling: touch;-webkit-ta
 /*-----------产品样式---------*/
 .introduce{width: 90%;margin: 0 auto;max-width: 1100px;}
 .introduce li{width: 25%;float: left;margin-top: 50px;min-width: 223px;}
+<<<<<<< HEAD
 .glyphicon{margin-top: -10px;line-height: 90px;}
+=======
+.glyphicon{margin-top: -10px;    line-height: 90px;}
+>>>>>>> 48f3e02d3b4b8d0b562caf74948f9ad0d0c4d5bd
 .p1{display: inline-block;margin-left: 10px;font-size: 17px;color: #999;}
 .p2{font-size: 13px;display: block;line-height: 26px;}
 .circle{color: #00c0c0;border:#00c0c0 2px solid; border-radius: 100%;display: inline-block;width: 90px;height: 90px;text-align: center;font-size: 52px;}
@@ -56,7 +60,7 @@ body {  -webkit-overflow-scrolling: touch;  overflow-scrolling: touch;-webkit-ta
     .name{font-size: 30px; letter-spacing: 8px;line-height: 20px;}
     .slogan{margin-top:50px;font-size: 22px;}
     .introduce li{width: 50%;margin-top: 30px;min-width: 120px;text-align: center;}
-    .glyphicon{margin-top: 4px;}
+    .glyphicon{margin-top: -8px; line-height: 70px}
     .p1{margin-left: 6px;display: block;margin-top: 10px;}
     .circle{width: 70px;height: 70px;font-size: 32px;}
     .swiper-button-prev,.swiper-button-next{display: none}
