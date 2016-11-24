@@ -1,0 +1,31 @@
+/*-----------初始化--------*/
+a,abbr,acronym,address,article,aside,audio,big,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,
+footer,form,h2,h3,h4,h5,h6,header,html,i,img,ins,input,kbd,label,legend,li,mark,menu,object,ol, option,p,pre,q,s,samp,section,select,small,span,strike,strong,sub,summary,
+sup,table,textarea,tbody,td,tfoot,th,thead,time,tr,tt,ul,var,video{ margin: 0;padding: 0;border: 0;outline: 0;  vertical-align: middle;
+    font-weight: normal; -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;font-family:'microsoft yahei', arial, simsun;}
+*:after,*:before{ margin: 0;padding: 0;border: 0;outline: 0;  vertical-align: middle; font-weight: normal; -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  box-sizing: border-box;}
+address, cite, dfn, em, var { font-style:normal; }
+small{ font-size:12px; }
+ul, ol ,li{ list-style:none; }
+a { text-decoration:none; color: #333 }
+a:hover { text-decoration:none; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+img {border: none; vertical-align: middle}
+input{outline:none;font-family:'microsoft yahei';-webkit-appearance:none; /*去除input默认样式*/}
+textarea {resize:none;}
+body {  -webkit-overflow-scrolling: touch;  overflow-scrolling: touch;-webkit-tap-highlight-color:rgba(0,0,0,0)  }
+/*-----------自定义公共类---------*/
+.fl{ float:left; }
+.fr{float:right}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1}
+/*-----------头部样式---------*/
+
+
+
+/*-----------banner轮播样式---------*/
+
+/*-----------产品样式---------*/
